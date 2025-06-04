@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { theme, toggleTheme } from './theme.signal';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -9,4 +10,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected title = 'ng-control-flow-if';
+
+  theme = theme;
+  toggle = toggleTheme;
 }

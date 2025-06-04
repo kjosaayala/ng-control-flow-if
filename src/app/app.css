@@ -1,0 +1,13 @@
+.dark {
+  background: #222;
+  color: white;
+  padding: 2rem;
+}
+.light {
+  background: #fff;
+  color: black;
+  padding: 2rem;
+}
+button {
+  margin-bottom: 1rem;
+}
